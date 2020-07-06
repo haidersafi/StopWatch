@@ -1,0 +1,44 @@
+body{
+   background-color:#ff0266;
+   font-family: 'Montserrat Subrayada', sans-serif;
+}
+h1{
+    text-align:center;
+    color:#64dd17;
+}
+.container{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    background-color:#4b6be9;
+color:#ffd303;
+    width:40px;
+    height:40px;
+    border: 1px solid #0336ff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btngrp{
+    display:flex;
+    width:300px;
+    justify-content: space-around;
+}
+button{
+    min-width: 50px;
+    height: 20px;
+    background-color:#ffc77d;
+    border:2px solid #ffc77d;
+    color:#558b2f;
+}
+h3,button{
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
